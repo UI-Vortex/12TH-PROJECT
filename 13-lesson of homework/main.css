@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@300;400;500;600;700;900&family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body,html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    background-color:#2B3844;
+    width: 1430px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header_title {
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.header_222 .header_title11 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.header_222 {
+    display: flex;
+    margin-right: 110px;
+    column-gap: 5px;
+}
+
+main {
+    background-color: #202C36;
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    display: flex;
+    transform: translateY(50px) translateX(-110px);
+    margin-bottom: 100px;
+}
+
+#options{
+    transform: translateX(880px);
+    padding: 10px 15px;
+    background-color:  #2B3844;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.search_input {
+    padding: 10px 160px 10px 50px;
+    transform: translateX(120px);
+    background-color:  #2B3844;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.dominator {
+    transform: translateX(-78px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    transform: translateX(-78px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.dominator_image {
+    transform: translateX(-10px) translateY(-10px);
+}
+
+.dominator_img {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+}
+
+.dominator_titles {
+    margin-left: 20px;
+}
+
+.dominator_alone {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i1::after {
+    content: ' 81,770,900';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i2::after {
+    content: ' Europe';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i3::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.dominator_img2 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+}
+.dominator_image2 {
+    transform: translateX(-10px) translateY(-10px);
+}
+
+.dominator_titles2 {
+    margin-left: 20px;
+}
+
+.dominator_alone2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items2 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i4::after {
+    content: ' 323,947,000';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i5::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i6::after {
+    content: ' Washington, D.C.';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.dominator_image3 {
+    transform: translateY(-10px);
+}
+
+.dominator_img3 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+}
+
+.dominator_titles3 {
+    margin-left: 20px;
+}
+
+.dominator_alone3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items3 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i7::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i8::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i9::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.dominator_image4 {
+        transform: translateY(-10px);
+}
+
+.dominator_img4 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+}
+
+.dominator_titles4 {
+    margin-left: 20px;
+}
+
+.dominator_alone4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items4 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i10::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i11::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i12::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+section {
+    display: flex;
+}
+
+.section1 {
+    display: flex;
+}
+
+
+.dominator_image5 {
+    transform: translateY(-10px);
+}
+
+.dominator_img5 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.dominator_titles5 {
+    margin-left: 20px;
+}
+
+.dominator_alone5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items5 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i13::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i14::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i15::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.dominator_image6 {
+    transform: translateY(-10px);
+}
+
+.dominator_img6 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.dominator_titles6 {
+    margin-left: 20px;
+}
+
+.dominator_alone6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items6 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i16::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i17::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i18::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.dominator_image7 {
+    transform: translateY(-10px);
+}
+
+.dominator_img7 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.dominator_titles7 {
+    margin-left: 20px;
+}
+
+.dominator_alone7 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items7 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i19::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i20::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i21::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.dominator_image8 {
+    transform: translateY(-10px) translateX(-10px);
+}
+
+.dominator_img8 {
+    background-color: #2B3844;
+    height: 310px;
+    width: 263px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.dominator_titles8 {
+    margin-left: 20px;
+}
+
+.dominator_alone8 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.dominator_items8 {
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.i22::after {
+    content: ' 206,135,893';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i23::after {
+    content: ' Americas';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.i24::after {
+    content: ' Berlin';
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
